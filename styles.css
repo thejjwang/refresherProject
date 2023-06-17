@@ -11,6 +11,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    scroll-behavior: smooth;
 }
 li {
     float: left;
@@ -215,4 +216,6 @@ p {
     [data-component="slideshow"] .slide.active {
         display: block;
     }
-     
+body, html {
+    scroll-behavior: smooth;
+}
