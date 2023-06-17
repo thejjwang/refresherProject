@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refresher Projectss</title>
+    <title>Refresher Projects</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,20 +15,39 @@
     <nav>
         <ul>
             <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#page1">Magic Button</a></li>
+            <li><a href="#page2">Registration</a></li>
+            <li><a href="#page3">Image Slider</a></li>
           </ul>          
     </nav>
-    <content>
-            <h2>Introduction</h2>
-            <p class="content">This text will change when the button is clicked blah blah blah. This text will change when the button is clicked blah blah blah. This text will change when the button is clicked blah blah blah.</p>
-            <button>Click Me!</button>
+    <content class="page" id="page1">
+            <h2 id="magic">Magic Button</h2>
+            <p class="content">This text will change when the magic button is clicked blah blah blah. This text will change when the button is clicked blah blah blah. This text will change when the button is clicked blah blah blah.</p>
+            <button class="btn">Click Me!</button>
     </content>
-    <form method="post" action=""></form>
+    <section class="page" id="page2">
+        <div class="main-block">
+            <h1 class="h1Form">Registration</h1>
+            <form action="http://www.jjjjj.com" method="get" id="loginForm">
+              <hr>
+              <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+              <input type="text" name="name" id="email" placeholder="Email" required/>
+              <label id="icon" for="name"><i class="fas fa-user"></i></label>
+              <input type="text" name="name" id="name" placeholder="Name" required/>
+              <hr>
+              <div class="btn-block">
+                <p class="pForm">By clicking Submit, you agree on our <a href="">Privacy Policy</a>.</p>
+                <button class="formBtn" type="submit" href="/">Submit</button>
+              </div>
+            </form>
+        </div>
+    </section>
+    <section id="page3" class="page">
+        <img src="">
+    </section>
     <footer>
-        <p>Author: Hege Refsnes<br>
-        <a href="mailto:hege@example.com">hege@example.com</a></p>
+        <p>Author: JJ<br>
+        <a href="mailto:hege@example.com">jj@example.com</a></p>
     </footer>
 </body>
 <script src="index.js"></script>
